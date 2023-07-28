@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our-Friut's-Company</title>
+    <title>Banana's</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FONT WOSAM -->
     <script src="https://kit.fontawesome.com/b59a1d620f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="apple.html">
 
     <script>
         tailwind.config = {
@@ -17,7 +18,8 @@
                 clifford: '#da373d',
                 'nav-bg':'#F85559',
                 'color-p':'#12121299',
-                'color-a':'#F85559'
+                'color-a':'#F85559',
+                'capa': '#12121299',
 
                 
               }
@@ -27,8 +29,9 @@
       </script>
 
 </head>
-<body >
-    <header class="lg:max-w-7xl lg:mx-auto">
+<body class="bg-capa">
+  
+    <header class="lg:max-w-7xl lg:mx-auto opacity-40 ">
         <!-- nav strt -->
         <nav>
             <div class="navbar  lg:bg-nav-bg rounded-3xl mt-6">
@@ -133,7 +136,7 @@
 
     <main class="lg:max-w-7xl lg:mx-auto">
       <!-- hiden sectio -->
-        <section class="">                          
+        <section class="opacity-40">                          
             <div class="absolute top-[550px] left-96 lg:flex  text-center justify-center gap-8 drop-shadow-lg hidden sm:block  bg-white mb-2 px-8 py-6">
                 <div class="">
                     <img src="images/fruit1.png" alt="">
@@ -158,7 +161,7 @@
           </div>
         </section>
         <!-- timer section -->
-         <section class="">
+         <section class="opacity-40">
           <div class="lg:flex  lg:items-center lg:mt-48   mb-5 ">
 
             <div class=" text-center lg:px-4 lg:w-full w-[277px] ">
@@ -196,7 +199,7 @@
           </div>
         </section>
         <!-- CARD SECTION -->
-        <section class="lg:flex lg:gap-3  mt-20">
+        <section class="lg:flex lg:gap-3  mt-20 opacity-40">
           <!-- fruits 1 -->
           <div class="card w-96 mb-5 bg-base-100 shadow-xl">
             <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
@@ -213,7 +216,7 @@
               <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="text-center pb-4 text-color-a">
-              <a href="appels.html" target="_blank">Details</a>
+              <a href="">Details</a>
             </div>
           </div>
           <!-- fruits 2 -->
@@ -232,7 +235,7 @@
               <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="text-center pb-4 text-color-a">
-              <a href="orange.html" target="_blank">Details</a>
+              <a href="">Details</a>
             </div>
           </div>
           <!-- fruits 3 -->
@@ -251,7 +254,7 @@
               <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="text-center pb-4 text-color-a">
-              <a href="dragon.html" target="_blank">Details</a>
+              <a href="">Details</a>
             </div>
           </div>
           <!-- fruits 4 -->
@@ -270,17 +273,38 @@
               <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="text-center pb-4 text-color-a">
-              <a href="banana.html" target="_blank">Details</a>
+              <a href="">Details</a>
             </div>
           </div> 
         </section>
 
-        
-          <div class=" flex justify-center mt-5 mb-20">
+                      <!-- banana z-index  -->
+          <div class="absolute z-20 bg-white mt-2 card w-96 mb-5 bg-base-100 shadow-xl left-[650px] top-1/2">
+            <figure><img src="/images/fruit9.png" alt="Shoes" /></figure>
+            <div class="card-body flex items-center">
+              <h2 class="card-title text-center font-bold">Banana</h2>
+              <hr>
+              <p class="mt-4 text-xs text-center	">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+              
+            </div>
+            <div class="rating rating-md flex justify-center pb-4">
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <div class="text-center pb-4 text-color-a">
+                <button class="btn btn-outline btn-error mr-4 text-white">Close</button>
+                <button class="btn btn-error text-white">Buy Now</button>
+            </div>
+          </div>
+
+          <div class=" flex justify-center mt-5 mb-20 opacity-40">
             <button class="btn border-none bg-nav-bg text-white bordder-nav-bg">Shop All</button>
           </div>
        
-        <section class="mb-24">
+        <section class="mb-24 opacity-40">
           <!-- tem section -->
           <div class="hero min-h-screen" style="background-image: url('images/team.png');">
             <div class="hero-overlay bg-opacity-60"></div>
@@ -342,7 +366,7 @@
               </div>
             </div>
         </section>
-        <section>
+        <section class="opacity-40">
           <!-- Why Choose Us -->
           <div class="text-center">
             <h2 class="text-5xl font-extrabold">
@@ -353,7 +377,7 @@
             </p>
           </div>
         </section>
-        <section>
+        <section class="opacity-40">
           <!-- Dedicated Team -->
           <div class="flex justify-between mb-36">
             <div>
@@ -417,7 +441,7 @@
         </section>
     </main>
 
-    <footer class="w-full footer footer-center p-10 bg-black  text-primary-content">
+    <footer class="w-full footer footer-center p-10 bg-black  text-primary-content opacity-40">
 
       <div class="footer-center flex gap-2">
         <div class="w-10 h-auto">
